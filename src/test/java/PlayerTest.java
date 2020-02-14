@@ -17,7 +17,6 @@ public class PlayerTest {
     public void before() {
         player = new Player("Steve");
         card = new Card(SuitType.SPADES, RankType.ACE);
-
     }
 
     @Test
@@ -35,7 +34,12 @@ public class PlayerTest {
         player.takeCard(card);
         player.takeCard(card);
         assertEquals(2, player.cardCount());
+    }
 
+    @Test
+    public void playerCanRevealCard(){
+        player.takeCard(card);
+        assertEquals("ACE of SPADES", player.showCard(0));
     }
 
 

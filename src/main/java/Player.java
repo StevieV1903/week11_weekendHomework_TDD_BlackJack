@@ -21,7 +21,13 @@ public class Player {
         this.playerHand.add(card);
     }
 
-
-
+    public String showCard(int index){
+        return this.playerHand.get(index).cardName();
     }
+
+    public ArrayList<Card> getHand() {
+        return playerHand;
+    }
+
+}
 

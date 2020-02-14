@@ -1,8 +1,10 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Deck {
 
     private ArrayList<Card> cards;
+    private Deck deck;
 
     public Deck(){
         this.cards = new ArrayList<Card>();
@@ -22,5 +24,12 @@ public class Deck {
                 cards.add(new Card(suit, rank));
             }
         }
+        Collections.shuffle(this.cards);
     }
+
+    public Card dealCard() {
+        Card dealtCard = getCards().remove(0);
+        return dealtCard;
+    }
+
 }

@@ -1,6 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.Collections;
+
 import static junit.framework.TestCase.assertEquals;
 
 public class DeckTest {
@@ -15,6 +17,7 @@ public class DeckTest {
 
     @Test
     public void theDeckStartsEmpty(){
+        //check that that array list is empty at the start
         assertEquals(0, deck.getSizeOfDeck());
     }
 
@@ -26,5 +29,13 @@ public class DeckTest {
     }
 
     @Test
-    public void theDeck
+    public void theDeckCanDealACard(){
+        //need to populate the deck
+        //need to remove a card from the populated array list
+        //deck size should be 51
+        deck.populateDeckWithCards(deck.getCards());
+        deck.dealCard();
+        assertEquals(51, deck.getSizeOfDeck());
+
+    }
 }

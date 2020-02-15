@@ -1,4 +1,7 @@
 import org.junit.Before;
+import org.junit.Test;
+
+import static junit.framework.TestCase.assertEquals;
 
 public class GameTest {
 
@@ -23,14 +26,13 @@ public class GameTest {
         card2 = new Card(SuitType.CLUBS, RankType.QUEEN);
         card3 = new Card(SuitType.SPADES, RankType.TWO);
         card4 = new Card(SuitType.HEARTS, RankType.ACE);
-
-
-
-
-
-
-
     }
+
+    @Test
+    public void blackjackHasPlayers(){
+        assertEquals(2, game.playerCount());
+    }
+
 
 
 }

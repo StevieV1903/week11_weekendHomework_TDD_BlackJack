@@ -51,7 +51,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerTest.playerCanRevealCard">
+  <component name="RunManager" selected="JUnit.GameTest.blackjackHasPlayers">
+    <configuration name="GameTest.blackjackHasPlayers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BlackJackGame" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" value="blackjackHasPlayers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackJackGame" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,23 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest.playerStartsWithAnEmptyHand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BlackJackGame" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
-      <option name="METHOD_NAME" value="playerStartsWithAnEmptyHand" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameTest.blackjackHasPlayers" />
         <item itemvalue="JUnit.PlayerTest.playerCanRevealCard" />
         <item itemvalue="JUnit.PlayerTest.playerCanShowCard" />
         <item itemvalue="JUnit.PlayerTest" />
         <item itemvalue="JUnit.PlayerTest.playerCanTakeTwoCards" />
-        <item itemvalue="JUnit.PlayerTest.playerStartsWithAnEmptyHand" />
       </list>
     </recent_temporary>
   </component>

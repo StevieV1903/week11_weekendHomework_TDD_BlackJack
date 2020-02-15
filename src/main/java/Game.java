@@ -13,4 +13,8 @@ public class Game {
     public void addPlayer(Player player) {
         this.players.add(player);
     }
+
+    public int playerCount(){
+        return this.players.size();
+    }
 }
